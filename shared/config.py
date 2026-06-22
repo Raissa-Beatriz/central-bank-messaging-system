@@ -1,0 +1,5 @@
+RABBITMQ_HOST = "localhost"
+RABBITMQ_QUEUE = "pix_transactions"
+RABBITMQ_USER = "guest"
+RABBITMQ_PASSWORD = "guest"
+AUDIT_LOG_PATH = "logs/audit.log"
