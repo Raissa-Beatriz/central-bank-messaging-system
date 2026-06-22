@@ -186,6 +186,8 @@ Get-Content .\logs\audit.log
 
 ## Formato da mensagem
 
+Cada transação é gerada no arquivo `shared/utils.py` e enviada pelos produtores em formato JSON para o RabbitMQ.
+
 Cada transação enviada para o broker segue este formato:
 
 ```json
